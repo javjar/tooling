@@ -14,7 +14,7 @@ List of tools that I love and use everyday
 - [fzf](https://github.com/junegunn/fzf)
 - [fzf-z](https://github.com/andrewferrier/fzf-z)
 - [fzf-tab](https://github.com/Aloxaf/fzf-tab)
-
+- [quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins)
 
 ### Apps
 
