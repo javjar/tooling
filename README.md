@@ -95,6 +95,7 @@ brew install --cask brave-browser \
     google-chrome
     hiddenbar \
     iterm2 \
+    jetbrains-toolbox \
     kap \
     keepingyouawake \
     keka \
