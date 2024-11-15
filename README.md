@@ -59,20 +59,77 @@ List of tools that I love and use everyday
 
 ## Installation
 
+### Homebrew
+
 ```
-brew install bat fd rectangle stats htmlq jq iterm2
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### Everything else
+
+```
+brew install bat \
+    fd \
+    ffmpeg \
+    gh \
+    htmlq \
+    imagemagick \
+    jq \
+    neovim \
+    nvm \
+    pyenv \
+    ripgrep \
+    stats \
+    tldr \
+    watch \
+    wget
 ```
 
 ```
-brew tap homebrew/cask-versions
-brew install --cask zed
-brew install --cask docker
-brew install --cask sloth
-brew install --cask hiddenbar
+brew install --cask brave-browser \
+    discord \
+    docker \
+    firefox \
+    font-fira-code \
+    font-hack-nerd-font \
+    google-chrome
+    hiddenbar \
+    iterm2 \
+    kap \
+    keepingyouawake \
+    keka \
+    notion \
+    ollama \
+    postman \
+    rectangle \
+    sloth \
+    spotify \
+    visual-studio-code \
+    vlc \
+    whatsapp \
+    zed \
 ```
 
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Oh My ZSH Plugins
+
+# fzf-tab
+git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
+
+# fzf-nvm
+git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
+
+# fzf-z
+git clone https://github.com/andrewferrier/fzf-z.git ~/.oh-my-zsh/custom/plugins/zsh-z
+
+# Manually enable all these in the plugins=() section
+```
+
+
+```
+mkdir ~/bin
+wget -P ~/bin https://raw.githubusercontent.com/so-fancy/diff-so-fancy/refs/heads/next/diff-so-fancy && chmod +x ~/bin/diff-so-fancy
 ```
 
 
