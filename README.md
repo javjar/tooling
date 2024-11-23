@@ -5,6 +5,7 @@ List of tools that I love and use everyday
 
 - https://github.com/rxhanson/Rectangle
 - https://github.com/exelban/stats
+- https://github.com/lwouis/alt-tab-macos
 - https://github.com/zed-industries/zed
 - https://github.com/sharkdp/bat
 - https://github.com/sharkdp/fd
@@ -87,6 +88,7 @@ brew install bat \
 
 ```
 brew install --cask brave-browser \
+    alt-tab
     discord \
     docker \
     firefox \
