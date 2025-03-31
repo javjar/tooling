@@ -16,6 +16,7 @@ List of tools that I love and use everyday
 - [fzf-z](https://github.com/andrewferrier/fzf-z)
 - [fzf-tab](https://github.com/Aloxaf/fzf-tab)
 - [quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins)
+- https://github.com/waydabber/BetterDisplay
 
 ### Apps
 
@@ -88,7 +89,8 @@ brew install bat \
 
 ```
 brew install --cask brave-browser \
-    alt-tab
+    alt-tab \
+    betterdisplay \
     discord \
     docker \
     firefox \
