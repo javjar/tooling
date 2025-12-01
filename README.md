@@ -53,7 +53,7 @@ List of tools that I love and use everyday
 - Whatsapp
 - ffmpeg
 - imagemagick
-- fnm
+- [fnm](https://github.com/Schniz/fnm) - 🚀 Fast and simple Node.js version manager, built in Rust
 - pyenv
 - Firefox
 - 
