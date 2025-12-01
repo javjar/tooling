@@ -53,7 +53,7 @@ List of tools that I love and use everyday
 - Whatsapp
 - ffmpeg
 - imagemagick
-- nvm
+- fnm
 - pyenv
 - Firefox
 - 
@@ -78,7 +78,7 @@ brew install bat \
     imagemagick \
     jq \
     neovim \
-    nvm \
+    fnm \
     pyenv \
     ripgrep \
     stats \
@@ -122,9 +122,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # fzf-tab
 git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
 
-# fzf-nvm
-git clone https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
-
 # fzf-z
 git clone https://github.com/andrewferrier/fzf-z.git ~/.oh-my-zsh/custom/plugins/zsh-z
 
@@ -141,9 +138,6 @@ wget -P ~/bin https://raw.githubusercontent.com/so-fancy/diff-so-fancy/refs/head
 ## Zsh config
 
 ```
-export NVM_LAZY_LOAD=true
-plugins=(git z fzf-z zsh-nvm)
-
 alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
 
 # tomasr/molokai
